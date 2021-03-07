@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+/* Font for the menu page */
+@import url(https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap);
+/* Font of the home page */
+@import url(https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background: rgba(255, 255, 255, 0.835)
+}
+
+section{
+    /* height: 100vh; */
+    height: auto;
+    border: 2px solid red;
+    padding: 0px !important;
+    margin: 0!important;
+}
+
+/* body {
+  font-family: 'Source Sans Pro', sans-serif;
+} */
+
+header {
+    /* width: 100%; */
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("https://cdn.vox-cdn.com/thumbor/fWdJKI_dirNSL2bBWVVWVW_I4-Q=/0x0:7360x4912/1200x800/filters:focal(3092x1868:4268x3044)/cdn.vox-cdn.com/uploads/chorus_image/image/67000785/shutterstock_1435374326.0.jpg");
+  background-size: cover;
+  background-repeat:no-repeat ;
+  height: 100vh;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.btn-container{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+  
+h1{
+  /* font-family: 'Lobster', cursive !important;
+   */
+   /* font-family: 'Pacifico', cursive; */
+   font-family: 'Lobster Two', cursive;
+   /* font-size: 40px; */
+  color: white;
+  margin: 0;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+.rating-section .row{
+    width: 100% !important;
+    padding: 0%!important;
+    margin: 0% !important;
+}
+
+/* .title p{
+    text-align: justify!important;
+} */
+
+
+/* MENU PAGE */
+
+h3 {
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+tr{
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+.head-bg{
+  background: linear-gradient(rgb(253, 185, 57),rgb(211, 211, 211));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
