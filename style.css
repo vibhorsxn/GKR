@@ -9,34 +9,47 @@
     box-sizing: border-box;
 }
 
+.text{
+  margin-top: -1px !important;
+}
+
 body{
   background: rgba(255, 255, 255, 0.835)
+}
+
+.bg-color{
+  background: linear-gradient(gray,rgb(187, 172, 172));
 }
 
 section{
     /* height: 100vh; */
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0px !important;
     margin: 0!important;
 }
 
-/* body {
-  font-family: 'Source Sans Pro', sans-serif;
-} */
+.icon{
+  border-radius: 50%;
+}
 
-header {
-    /* width: 100%; */
-  background: 
-    linear-gradient(
+.tx-shadow{
+  text-shadow: 3px 3px 2px black !important;
+}
+
+.img-ht{
+  height: 100vh;
+  width:50%;
+  filter: contrast(85%);
+  box-shadow: 0px 2px 5px 1px gray;
+}
+
+.blur{
+  background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),
-    url("https://cdn.vox-cdn.com/thumbor/fWdJKI_dirNSL2bBWVVWVW_I4-Q=/0x0:7360x4912/1200x800/filters:focal(3092x1868:4268x3044)/cdn.vox-cdn.com/uploads/chorus_image/image/67000785/shutterstock_1435374326.0.jpg");
-  background-size: cover;
-  background-repeat:no-repeat ;
-  height: 100vh;
-  position: relative;
+    ) !important;
+    z-index: 3 !important;
 }
 
 .title {
@@ -54,7 +67,14 @@ h2 {
 p {
   margin: 0;
   font-size: 1.3rem;
+  font-family: 'Akaya Kanadaka', cursive;
 }
+h5{
+  font-size: 1.7rem;
+  font-family: 'Akaya Kanadaka', cursive;
+  word-spacing: 10px;
+}
+
 
 main {
   max-width: 500px;
@@ -69,13 +89,10 @@ main {
 }
   
 h1{
-  /* font-family: 'Lobster', cursive !important;
-   */
-   /* font-family: 'Pacifico', cursive; */
    font-family: 'Lobster Two', cursive;
-   /* font-size: 40px; */
   color: white;
   margin: 0;
+  word-spacing: 10px;
   font-size: 2rem;
   white-space: nowrap;
 }
@@ -85,11 +102,6 @@ h1{
     padding: 0%!important;
     margin: 0% !important;
 }
-
-/* .title p{
-    text-align: justify!important;
-} */
-
 
 /* MENU PAGE */
 
@@ -102,7 +114,8 @@ tr{
 }
 
 .head-bg{
-  background: linear-gradient(rgb(253, 185, 57),rgb(211, 211, 211));
+  background: radial-gradient(closest-side, #ebf8e1, #f69d3c);
+  /* background: radial-gradient(closest-side, #cccccc, #ebf8e1, #52504f); */
   background-repeat: no-repeat;
   background-size: cover;
 }
