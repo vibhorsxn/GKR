@@ -13,13 +13,12 @@
 
 <body>
 
-    <nav class="navbar sticky-top navbar-dark bg-dark">
+    <nav class="navbar position-sticky navbar-dark bg-dark">
         <!-- Just an image -->
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="https://www.flaticon.com/svg/vstatic/svg/857/857755.svg?token=exp=1615023930~hmac=e0f14be1e227503c7f979a5cb99b5174"
-                        alt="" width="50" height="50">
+                    <img src="images/icon.png" class="icon" alt="" width="60" height="60">
                 </a>
             </div>
         </nav>
@@ -35,9 +34,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="./menu.html">Menu</a>
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <!-- <a class="nav-link" href="./menu.html">Menu</a> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#breakfast">Breakfast</a></li>
+                                <li><a class="dropdown-item" href="#main-course">Main Course</a></li>
+                                <li><a class="dropdown-item" href="#beverages">Bevrages</a></li>
+                                <li><a class="dropdown-item" href="#thali">Thali</a></li>
+                                <li><a class="dropdown-item" href="#rice">Choice of Rice</a></li>
+                                <!-- <li><a class="dropdown-item" href=""></a></li> -->
+
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="./index.html">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -46,7 +60,7 @@
     </nav>
 
     <!-- Menu table -->
-    <h3 class="text-xl-center head-bg">BreakFast</h3>
+    <h3 class="text-xl-center head-bg" id="breakfast">BreakFast</h3>
     <section class="container-xxl">
         <table class="table table-dark">
             <thead>
@@ -98,7 +112,7 @@
             </tbody>
         </table>
     </section>
-    <h3 class="text-xl-center head-bg">Main Course</h3>
+    <h3 class="text-xl-center head-bg" id="main-course">Main Course</h3>
     <section class="container-xxl">
         <table class="table table-secondary">
             <thead>
@@ -125,7 +139,7 @@
             </tbody>
         </table>
     </section>
-    <h3 class="text-xl-center head-bg">Ghar ki Rasoi</h3>
+    <h3 class="text-xl-center head-bg" id="beverages">Beverages</h3>
     <section class="container-xxl">
         <table class="table table-secondary">
             <thead>
@@ -157,7 +171,7 @@
             </tbody>
         </table>
     </section>
-    <h3 class="text-xl-center head-bg">Thali</h3>
+    <h3 class="text-xl-center head-bg" id="thali">Thali</h3>
     <section class="container-xxl">
         <table class="table table-dark">
             <thead>
@@ -210,7 +224,7 @@
             </tbody>
         </table>
     </section>
-    <h3 class="text-xl-center head-bg">Choice of Rice</h3>
+    <h3 class="text-xl-center head-bg" id="rice">Choice of Rice</h3>
     <section class="container-xxl">
         <table class="table table-secondary">
             <thead>
@@ -247,6 +261,9 @@
             </tbody>
         </table>
     </section>
+    <div class="card-footer text-muted">
+        ©Designed and developed by: |2021
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
