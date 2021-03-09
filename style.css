@@ -98,7 +98,7 @@ h1{
    font-family: 'Lobster Two', cursive;
   color: white;
   margin: 0;
-  word-spacing: 10px;
+  /* word-spacing: 10px; */
   font-size: 2rem;
   white-space: nowrap;
 }
