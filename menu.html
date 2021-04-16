@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Fsvicon Icon -->
+    <!-- Favicon Icon -->
     <link rel="icon" href="./images/favicon-16x16.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,7 +14,7 @@
     <title>Ghar Ki Rasoi</title>
 </head>
 
-<body>
+<body style="background-color: rgb(248, 248, 213);">
 
     <nav class="navbar position-sticky navbar-dark bg-dark">
         <!-- Just an image -->
@@ -37,9 +37,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link active" href="./menu.html">Menu</a>
                         <!-- <a class="nav-link" href="./menu.html">Menu</a> -->
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Menu
@@ -47,7 +48,6 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
                                 <li><a class="dropdown-item" href="#vrat">Vrat Special</a></li>
-                                <!-- <li><a class="dropdown-item" href="#breakfast">Breakfast</a></li> -->
                                 <li><a class="dropdown-item" href="#main-course">Main Course</a></li>
                                 <li><a class="dropdown-item" href="#beverages">Beverages</a></li>
                                 <li><a class="dropdown-item" href="#breads">Breads</a></li>
@@ -57,7 +57,7 @@
                                 <li><a class="dropdown-item" href="#chinese">Chinese</a></li>
 
                             </ul>
-                        </li>
+                        </li> -->
                         <a class="nav-link">Bulk Order:99xxxxxxxx</a>
                     </div>
                 </div>
@@ -66,399 +66,379 @@
         </nav>
     </nav>
 
-    <!-- Menu table -->
-           
-    <!-- vrat -->
-    <h3 class="text-xl-center head-bg" id="vrat">Vrat Special</h3>
-    <section class="container-xxl">
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Price</th>
-                </tr>
-            </thead>
+    <div class="container mt-4">
+        <div class="row justify-content-center overflow-hidden">
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/thali.jpg" class="card-img-top" alt="...">
+                    <!-- <div class="card-body"> -->
+                    <h4 class="card-title p-3">Vrat Special</h4>
+                    <!-- </div> -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Vrat Combo</div>
+                                <div class="col-3">&#8377;120</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Vrat Thali</div>
+                                <div class="col-3">&#8377;230</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-            <tbody>
-                <tr class=" table-light">
-                    <th scope="row">Vrat Combo
-                        <table class="table">
-                            
-                            </table>
-                            <td>
-                                ₹ 120 
-                            </td>
-                            
-                    </th>
-                </tr>
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/fried-rice2.jpg" class="card-img-top" alt="...">
 
-                <tr class=" table-secondary">
-                    <th scope="row">Vrat Thali
-                        <table class="table">
-                            
-                            </table>
-                            <td>
-                                ₹ 230 
-                            </td>
-                            
-                    </th>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+                    <!-- <div class="card-body"> -->
+                    <h4 class="card-title p-3">Chinese</h4>
+                    <!-- </div> -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Fried Rice</div>
+                                <div class="col-3">&#8377;130</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Gravy Manchurian</div>
+                                <div class="col-3">&#8377;150</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Dry Manchurian</div>
+                                <div class="col-3">&#8377;130</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-    <!--mainCourse -->
-    <h3 class="text-xl-center head-bg" id="main-course">Main Course</h3>
-    <section class="container-xxl">
-        <table class="table">
-            <thead>
-                <tr class="table-dark">
-                    <th scope-col></th>
-                    <th scope-col>Half</th>
-                    <th scope-col>Full</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th colspan="3">Choice of Dal</th>
-                </tr>
-                
-                            <tr class="table-secondary">
-                                <td>Dal Makhni</td>
-                                <td>₹ 80</td>
-                                <td>₹ 130</td>
-                            </tr>
-                            <tr class="table-secondary">
-                                <td>Dal Tadka</td>
-                                <td>₹ 50 </td>
-                                <td>₹ 120 </td>
-                            </tr>
-                            <tr class="table-secondary">
-                                <td>Rajma</td>
-                                <td>-</td>
-                                <td>₹ 130 </td>
-                            </tr>
-                       
-                            <tr>
-                                <th colspan="3">Choice of Paneer</th>
-                            </tr>
-                    
-                            <tr class="table-light">
-                                <td>Shahi Paneer</td>
-                                <td>₹ 90</td>
-                                <td>₹ 160</td>
-                            </tr>
-                            <tr class="table-light">
-                                <td>Kadhai Paneer</td>
-                                <td>₹ 90 </td>
-                                <td>₹ 160 </td>
-                            </tr>
-                            <tr class="table-light">
-                                <td>Paneer Butter Masala</td>
-                                <td>₹ 90</td>
-                                <td>₹ 160</td>
-                                
-                            </tr>
-                            <tr class="table-secondary">
-                                <th>Aloo jeera with 5 puri</th>
-                                <td>-</td>
-                                <td>₹ 50</td>
-                            </tr>
-                                
-                        </table>
-                    </tr>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <!-- Bevrages -->
-    <h3 class="text-xl-center head-bg" id="beverages">Beverages</h3>
-    <section class="container-xxl">
-       <table class="table">
-            <thead>
-                <tr class="table-dark">
-                    <th scope="col"></th>
-                    <th scope="col">Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th colspan="2">Shakes</th>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Vanilla Shake</td>
-                    <td>₹ 100</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Chocolate Shake</td>
-                    <td>₹ 100</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Strawberry Shake</td>
-                    <td>₹ 100</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Ice-Cream Cold Coffee</td>
-                    <td>₹ 90</td>
-                </tr>
-                <tr>
-                    <th colspan="2">Exotic Shakes</th>
-                </tr>
-                <tr class="table-light">
-                    <td>Oreo Shake</td>
-                    <td>₹ 120</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Kitkat Shake</td>
-                    <td>₹ 120</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Classic Blueberry</td>
-                    <td>₹ 130</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Nutella Crunch</td>
-                    <td>₹ 140</td>
-                </tr>
-                <tr>
-                    <th colspan="2">Mojito's</th>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Classic Mint</td>
-                    <td>₹ 90</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Strawberry</td>
-                    <td>₹ 90</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Blueberry</td>
-                    <td>₹ 100</td>
-                </tr>
-                <tr>
-                    <th colspan="2">Coolers</th>
-                </tr>
-                <tr class="table-light">
-                    <td>Lemon Ice Tea</td>
-                    <td>₹ 60</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Fruit Beer</td>
-                    <td>₹ 60</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Ice Tea(Strawberry/Blueberry)</td>
-                    <td>₹ 70</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/rice.jpg" class="card-img-top" alt="..." height="238px">
+                    <div class="card-body">
+                        <h4 class="card-title">Choice of Rice</h4>
+                        <!-- <div class="row">
+                            <div class="col-6"></div>
+                            <div class="col-3">
+                                <h6>Half</h6>
+                            </div>
+                            <div class="col-3">
+                                <h6>Full</h6>
+                            </div>
+                        </div> -->
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6"></div>
+                                <div class="col-3">
+                                    <h6>Half</h6>
+                                </div>
+                                <div class="col-3">
+                                    <h6>Full</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">Plain Rice</div>
+                                <div class="col-3">&#8377;50</div>
+                                <div class="col-3">&#8377;80</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6">Jeera Rice</div>
+                                <div class="col-3">&#8377;60</div>
+                                <div class="col-3">&#8377;90</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6">Veg-Biryani (With Gravy)</div>
+                                <div class="col-3">-</div>
+                                <div class="col-3">&#8377;120</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-    <!-- Breads -->
-    <h3 class="text-xl-center head-bg" id="breads">Breads</h3>
-    <section class="container-xxl">
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="table-light">
-                    <td>Tawa Roti</td>
-                    <td>₹ 10</td>
-                    
-                </tr>
-                <tr class="table-secondary">
-                    <td>Aloo Paratha</td>
-                    <td>₹ 30</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Aloo Pyaaz Paratha</td>
-                    <td>₹ 35</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Panner Paratha</td>
-                    <td>₹ 50</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Panner Pyaaz Paratha</td>
-                    <td>₹ 45</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Mix-Veg Paratha</td>
-                    <td>₹ 35</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/main3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Main Course</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <!-- <h6>Choice of Dal</h6> -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6>Choice of Dal</h6>
+                                </div>
+                                <div class="col-3">
+                                    <h6>Half</h6>
+                                </div>
+                                <div class="col-3">
+                                    <h6>Full</h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">Dal Makhni</div>
+                                <div class="col-3">&#8377;80</div>
+                                <div class="col-3">&#8377;130</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">Dal Tadka</div>
+                                <div class="col-3">&#8377;70</div>
+                                <div class="col-3">&#8377;120</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">Rajma</div>
+                                <div class="col-3">-</div>
+                                <div class="col-3">&#8377;130</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Choice of Paneer</h6>
+                            <div class="row">
+                                <div class="col-6">Shahi Paneer</div>
+                                <div class="col-3">&#8377;90</div>
+                                <div class="col-3">&#8377;160</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">Kadhai Paneer</div>
+                                <div class="col-3">&#8377;90</div>
+                                <div class="col-3">&#8377;160</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6">Paneer Butter Masala</div>
+                                <div class="col-3">&#8377;90</div>
+                                <div class="col-3">&#8377;160</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-6 h6">Aloo Jeera with 5 Puri</div>
+                                <div class="col-3"></div>
+                                <div class="col-3">&#8377;50</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-    <!-- Thali -->
-    <h3 class="text-xl-center head-bg" id="thali">Thali</h3>
-    <section class="container-xxl">
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class=" table-secondary">
-                    <th scope="row">Ghar ki Regular Thali
-                        <table class="table">
-                            <tr>
-                                <td>Aloo + Dal Makhni + 5 Roti +
-                                    Raita + Salad</td>
-
-                            </tr>
-                        </table>
-                    </th>
-                    <td>₹ 130 </td>
-                </tr>
-                <tr class="table-light">
-                    <th scope="row">Ghar ki Special Thali
-                        <table class="table">
-                            <tr>
-                                <td>
-                                    Dal Makhni / Dal Tadka +
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/thali2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Thali</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h6>Ghar ki regular Thali</h6>
+                            <div class="row">
+                                <div class="col-9">Aloo + Dal Makhni + 5 Roti +
+                                    Raita + Salad</div>
+                                <div class="col-3">&#8377;130</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Ghar ki Special Thali</h6>
+                            <div class="row">
+                                <div class="col-9"> Dal Makhni / Dal Tadka +
                                     Shahi Paneer / Kadhai Paneer
-                                    4 Roti + Rice + Raita + Salad
-                                </td>
+                                    4 Roti + Rice + Raita + Salad</div>
+                                <div class="col-3">&#8377;180/&#8377;190</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Add Ons</h6>
+                            <div class="row">
+                                <div class="col-9">Ice tea(200ml) *Only with thali</div>
+                                <div class="col-3">&#8377;20</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                            </tr>
-                        </table>
-                    </th>
-                    <td>₹ 180/190</td>
-                </tr>
-                <tr class=" table-secondary">
-                    <th scope="row">Add Ons
-                        <table class="table">
-                            <tr>
-                                <td>
-                                    Ice tea(200ml)<br> *Only with thali
-                                </td>
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/paratha.jpg" class="card-img-top" alt="...">
+                    <!-- <div class="card-body"> -->
+                    <h4 class="card-title p-3 pb-4">Breads</h4>
+                    <!-- </div> -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Tawa Roti</div>
+                                <div class="col-3">&#8377;10</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Aloo Paratha</div>
+                                <div class="col-3">&#8377;30</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Aloo Pyaz Paratha</div>
+                                <div class="col-3">&#8377;35</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Paneer Paratha</div>
+                                <div class="col-3">&#8377;50</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Paneer Pyaz Paratha</div>
+                                <div class="col-3">&#8377;45</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-9">Mix-Veg Paratha</div>
+                                <div class="col-3">&#8377;35</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                            </tr>
-                        </table>
-                    </th>
-                    <td>₹ 20</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    
-    <!-- Rice -->
-    <h3 class="text-xl-center head-bg" id="rice">Choice of Rice</h3>
-    <section class="container-xxl">
-        <table class="table table-secondary">
-            <thead>
-                <tr class="table-dark">
-                    <th scope="col"></th>
-                    <th scope="col">Half</th>
-                    <th scope="col">Full</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="table-secondary">
-                    <td>Plain rice</td>
-                    <td>₹ 50</td>
-                    <td>₹ 80</td>
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/mojito.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Beverages</h4>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h6>Shakes</h6>
+                            <div class="row">
+                                <div class="col-9">Vanilla Shake</div>
+                                <div class="col-3">&#8377;100</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Chocolate Shake</div>
+                                <div class="col-3">&#8377;100</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Strawberry Shake</div>
+                                <div class="col-3">&#8377;100</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Ice-Cream Cold Coffee</div>
+                                <div class="col-3">&#8377;90</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Exotic Shakes</h6>
+                            <div class="row">
+                                <div class="col-9">Oreo Shake</div>
+                                <div class="col-3">&#8377;120</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Kitkat Shake</div>
+                                <div class="col-3">&#8377;120</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Classic Blueberry</div>
+                                <div class="col-3">&#8377;130</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Nutella Crunch</div>
+                                <div class="col-3">&#8377;140</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Mojito's</h6>
+                            <div class="row">
+                                <div class="col-9">Classic Mint</div>
+                                <div class="col-3">&#8377;90</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Strawberry</div>
+                                <div class="col-3">&#8377;90</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Blueberry</div>
+                                <div class="col-3">&#8377;100</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Coolers</h6>
+                            <div class="row">
+                                <div class="col-9">Lemon Ice Tea</div>
+                                <div class="col-3">&#8377;60</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Fruit Beer</div>
+                                <div class="col-3">&#8377;60</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Ice Tea(Strawberry/Blueberry)</div>
+                                <div class="col-3">&#8377;70</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-                </tr>
-                <tr class="table-light">
-                    <td>Jeera rice</td>
-                    <td>
-                        ₹ 60 
-                    </td>
-                    <td>
-                        ₹ 90 
-                    </td>
-                </tr>
-                <tr class="table-secondary">
-                    <td> Veg-Biryani
-                        (With Gravy)</td>
-                    <td>
-                        -
-                    </td>
-                    <td>₹ 120 </td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+            <div class="col-md-4 justify-content-center d-flex mb-4">
+                <div class="card bg-light shadow" style="width: 20rem;">
+                    <img src="./images/acc.jpg" class="card-img-top" alt="...">
+                    <!-- <div class="card-body"> -->
+                    <h4 class="card-title p-3">Accompaniments</h4>
+                    <!-- </div> -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <h6>Happy Vegetables</h6>
+                            <div class="row">
+                                <div class="col-9">Aloo jeera</div>
+                                <div class="col-3">&#8377;90</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Mix Veg.</div>
+                                <div class="col-3">&#8377;100</div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <h6>Raita</h6>
+                            <div class="row">
+                                <div class="col-9">Boondi Raita</div>
+                                <div class="col-3">&#8377;80</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Mix Veg raita</div>
+                                <div class="col-3">&#8377;90</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-9">Pineapple Raita</div>
+                                <div class="col-3">&#8377;100</div>
+                            </div>
+                        </li>
+                    </ul>
 
-    <!-- Accompaniments -->
-    <h3 class="text-xl-center head-bg" id="acc">Accompaniments</h3>
-    <section class="container-xxl">
-       <table class="table">
-            <thead>
-                <tr class="table-dark">
-                    <th scope="col"></th>
-                    <th scope="col">Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th colspan="2">Happy Vegetables</th>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Aloo Jeers</td>
-                    <td>₹ 90</td>
-                </tr>
-                <tr class="table-secondary">
-                    <td>Mix Veg</td>
-                    <td>₹ 100</td>
-                </tr>
-                <tr>
-                    <th colspan="2">Raita</th>
-                </tr>
-                <tr class="table-light">
-                    <td>Boondi Raita</td>
-                    <td>₹ 80</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Mix Veg Raita</td>
-                    <td>₹ 90</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Pineapple Raita</td>
-                    <td>₹ 100</td>
-                </tr>
-                    
-            </tbody>
-        </table>
-    </section>
-    
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- chinese -->
-    <h3 class="text-xl-center head-bg" id="chinese">Chinese</h3>
-    <section class="container-xxl">
-        <table class="table table-dark">
-            <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="table-light">
-                    <td>Fried rice</td> 
-                    <td>₹ 130</td>  
-                </tr>
-                <tr class="table-secondary">
-                    <td>Gravy Manchurian</td>
-                    <td>₹ 150</td>
-                </tr>
-                <tr class="table-light">
-                    <td>Dry Manchurian</td>
-                    <td>₹ 130</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
     <div class="card-footer text-muted">
-        © Ghar Ki Rasoi 2021  <br>Designed &Developed by:Vibhor | Prachika 
+        © Ghar Ki Rasoi 2021  <br>Designed & Developed by:Vibhor | Prachika 
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"

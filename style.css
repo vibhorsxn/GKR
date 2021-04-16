@@ -3,59 +3,78 @@
 @import url(https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap);
 /* Font of the home page */
 @import url(https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap);
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.text{
+.rate {
+  color: yellow;
+}
+
+.text {
   margin-top: -1px !important;
 }
 
-body{
-  background: rgba(255, 255, 255, 0.835)
+body {
+  background: rgba(255, 255, 255, 0.835);
 }
 
-.bg-color{
-  background: linear-gradient(gray,rgb(187, 172, 172));
+.bg-color {
+  background: linear-gradient(gray, rgb(187, 172, 172));
+}
+/* For Blink Effect */
+.blink {
+  animation: blinker 1s linear infinite;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Akaya Kanadaka", cursive;
+  text-shadow: 3px 3px 2px black !important;
+  /* font-family: sans-serif; */
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
-section{
-    /* height: 100vh; */
-    height: auto;
-    /* border: 2px solid red; */
-    padding: 0px !important;
-    margin: 0!important;
+section {
+  /* height: 100vh; */
+  height: auto;
+  /* border: 2px solid red; */
+  padding: 0px !important;
+  margin: 0 !important;
 }
 
-.icon{
+.icon {
   border-radius: 50%;
 }
 
-.tx-shadow{
+.tx-shadow {
   text-shadow: 3px 3px 2px black !important;
 }
 
-.img-ht{
+.img-ht {
   height: 650px;
-  width:250px;
+  width: 250px;
   filter: contrast(85%);
   box-shadow: 0px 2px 5px 1px gray;
 }
-.img-ht1{
-	height: 650px;
-  width:auto;
+.img-ht1 {
+  height: 650px;
+  width: auto;
   filter: contrast(85%);
   box-shadow: 0px 2px 5px 1px gray;
 }
-	
-.blur{
+
+.blur {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ) !important;
-    z-index: 3 !important;
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ) !important;
+  z-index: 3 !important;
 }
 
 .title {
@@ -73,29 +92,28 @@ h2 {
 p {
   margin: 0;
   font-size: 1.3rem;
-  font-family: 'Akaya Kanadaka', cursive;
+  font-family: "Akaya Kanadaka", cursive;
 }
-h5{
+h5 {
   font-size: 1.7rem;
-  font-family: 'Akaya Kanadaka', cursive;
+  font-family: "Akaya Kanadaka", cursive;
   word-spacing: 10px;
 }
-
 
 main {
   max-width: 500px;
   margin: 20px auto;
 }
 
-.btn-container{
-    position: absolute;
-    bottom: 25%;
-    left: 50%;
-    transform: translate(-50%,50%);
+.btn-container {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
-  
-h1{
-   font-family: 'Lobster Two', cursive;
+
+h1 {
+  font-family: "Lobster Two", cursive;
   color: white;
   margin: 0;
   /* word-spacing: 10px; */
@@ -103,23 +121,23 @@ h1{
   white-space: nowrap;
 }
 
-.rating-section .row{
-    width: 100% !important;
-    padding: 0%!important;
-    margin: 0% !important;
+.rating-section .row {
+  width: 100% !important;
+  padding: 0% !important;
+  margin: 0% !important;
 }
 
 /* MENU PAGE */
 
 h3 {
-  font-family: 'Akaya Kanadaka', cursive;
+  font-family: "Akaya Kanadaka", cursive;
 }
 
-tr{
-  font-family: 'Akaya Kanadaka', cursive;
+tr {
+  font-family: "Akaya Kanadaka", cursive;
 }
 
-.head-bg{
+.head-bg {
   background: radial-gradient(closest-side, #ebf8e1, #f69d3c);
   /* background: radial-gradient(closest-side, #cccccc, #ebf8e1, #52504f); */
   background-repeat: no-repeat;
